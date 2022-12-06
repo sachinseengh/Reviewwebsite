@@ -35,6 +35,7 @@
   .header{
     width:100vw;
   }
+  
 
   .nav {
     display: flex;
@@ -44,12 +45,10 @@
     width: 100vw;
     padding: 0 6rem;
     z-index: 100;
-    background-color: #848b81;
+    background-color: #6daa307c;
+  
   }
-  .nav__link:link{
-    font-size: 13px;
-    
-   }
+ 
 
 
 
@@ -63,7 +62,7 @@
     z-index: 100;
     padding:10px;
     box-sizing: border-box;
-  
+     
   }
   .navsm ul ul{
     display: flex;
@@ -125,10 +124,36 @@
     background-color: #8f8989;
   }
   section{
-    margin-left: 20;
-    height:300px;
-    background-color: #4bbb7d;
+  display: 80vh;
   }
+  .sections{
+    margin-left: 20;
+   
+    background-color: #4bbb7d;
+    border: 2px solid goldenrod;
+  }
+  .box{
+    height:200px;
+  }
+  /* .section{
+    height:20vh;
+  } */
+
+  /* sections */
+  .container{
+    border:1px solid red;
+    
+    display : grid;
+ 
+   grid-template-columns: repeat(auto-fit,minmax(200px,300fr));
+   grid-gap:1rem;
+   padding-top: 20px;
+
+  }
+  .box{
+    border:1px solid black
+  }
+  
  
   @media(max-width:450px){
 
