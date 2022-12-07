@@ -155,6 +155,21 @@
   .box{
     border:1px solid black
   }
+
+  footer{
+    background-color: #333;
+    color:white;
+    padding:20px;
+    padding-left:60px;
+  }
+  footer h3{
+    text-decoration:dotted;
+    text-align: center;
+
+  }
+  footer span{
+    color:red;
+  }
   
  
   @media(max-width:450px){
