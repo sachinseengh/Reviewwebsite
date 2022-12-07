@@ -195,11 +195,11 @@
   /* sections */
   .container{
     border:1px solid red;
-    padding-left:12% ;
+    padding-left:5% ;
     /* padding-right: 5%; */
     display : grid;
  
-   grid-template-columns: repeat(auto-fit,minmax(90px,120px));
+   grid-template-columns: repeat(auto-fit,minmax(90px,130px));
    grid-gap:3rem;
    padding-top: 20px;
    width:100vw;
