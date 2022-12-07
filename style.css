@@ -142,13 +142,14 @@
   /* sections */
   .container{
     border:1px solid red;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     display : grid;
  
    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
    grid-gap:3rem;
    padding-top: 20px;
+   width:100vw;
 
   }
   .box{
@@ -182,6 +183,32 @@
     margin-top: -7px;
     padding-top: 25px;
    }
+
+   /* for sections boxes */
+   .box{
+    height:100px;
+  }
+  /* .section{
+    height:20vh;
+  } */
+
+  /* sections */
+  .container{
+    border:1px solid red;
+    padding-left:12% ;
+    /* padding-right: 5%; */
+    display : grid;
+ 
+   grid-template-columns: repeat(auto-fit,minmax(90px,120px));
+   grid-gap:3rem;
+   padding-top: 20px;
+   width:100vw;
+
+  }
+  .box{
+    border:1px solid black
+  }
+  
     
    
     
@@ -216,6 +243,30 @@
   padding-top: 21px;
   padding-left: 0px;
  }
+
+ .box{
+  height:200px;
+}
+/* .section{
+  height:20vh;
+} */
+
+/* sections */
+.container{
+  border:1px solid red;
+  padding-left: 50px;
+  padding-right: 50px;
+  display : grid;
+
+ grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+ grid-gap:3rem;
+ padding-top: 20px;
+ width:100vw;
+
+}
+.box{
+  border:1px solid black
+}
 
  
 
