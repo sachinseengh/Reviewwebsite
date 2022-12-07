@@ -165,7 +165,9 @@
   footer h3{
     text-decoration:dotted;
     text-align: center;
-
+  }
+  footer span a{
+    color:red;
   }
   footer span{
     color:red;
