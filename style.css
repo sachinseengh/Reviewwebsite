@@ -221,7 +221,8 @@
 
    /* for sections boxes */
    .box{
-    height:100px;
+    height:200px;
+    
   }
   /* .section{
     height:20vh;
@@ -234,7 +235,7 @@
     /* padding-right: 5%; */
     display : grid;
  
-   grid-template-columns: repeat(auto-fit,minmax(90px,130px));
+    grid-template-columns: repeat(auto-fit,minmax(90px,100px));
    grid-gap:3rem;
    padding-top: 20px;
    width:100vw;
