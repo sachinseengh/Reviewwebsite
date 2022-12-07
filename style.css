@@ -144,7 +144,7 @@
   /* sections */
    .container{
     border:1px ;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 50px;
     display : grid;
     
@@ -231,7 +231,7 @@
   /* sections */
   .container{
  
-    padding-left:40px ;
+    padding-left:13%;
     /* padding-right: 5%; */
     display : grid;
  
