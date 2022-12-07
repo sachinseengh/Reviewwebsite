@@ -221,7 +221,7 @@
 
    /* for sections boxes */
    .box{
-    height:100px;
+    height:150px;
     
   }
   /* .section{
@@ -231,11 +231,11 @@
   /* sections */
   .container{
  
-    padding-left:13%;
+    padding-left:9%;
     /* padding-right: 5%; */
     display : grid;
  
-    grid-template-columns: repeat(auto-fit,minmax(90px,121px));
+    grid-template-columns: repeat(auto-fit,minmax(90px,150px));
    grid-gap:3rem;
    padding-top: 20px;
    width:100vw;
@@ -249,7 +249,7 @@
    
     
   }
-  @media(min-width:451px )  and  ( max-width:700px){
+  @media(min-width:451px )  and  ( max-width:550px){
 
     .nav{
       display: none;
@@ -291,6 +291,64 @@
 .container{
 
   padding-left: 5%;
+  padding-right: 0px;
+  display : grid;
+
+ grid-template-columns: repeat(auto-fit,minmax(200px,25%));
+ grid-gap:3rem;
+ padding-top: 20px;
+ width:100vw;
+
+}
+.box{
+  border:1px solid black
+}
+
+ 
+
+  }
+  @media(min-width:550px )  and  ( max-width:700px){
+
+    .nav{
+      display: none;
+  } 
+  .section{
+    width:100vw;
+  }
+
+   .navsm{
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+      height: 7rem;
+      width: 100vw;
+      z-index: 100;
+      padding-left:10px;
+      border-radius: 4px;
+  }
+  
+
+ .nav__link:link{
+  font-size: 15px;
+  
+ }
+ .navsm ul{
+  margin-top: -10px;
+  padding-top: 21px;
+  padding-left: 0px;
+ }
+
+ .box{
+  height:200px;
+}
+/* .section{
+  height:20vh;
+} */
+
+/* sections */
+.container{
+
+  padding-left: 12%;
   padding-right: 0px;
   display : grid;
 
