@@ -221,7 +221,7 @@
 
    /* for sections boxes */
    .box{
-    height:250px;
+    height:140px;
     
   }
   /* .section{
@@ -231,11 +231,11 @@
   /* sections */
   .container{
  
-    padding-left:9%;
+    padding-left:8%;
     /* padding-right: 5%; */
     display : grid;
  
-    grid-template-columns: repeat(auto-fit,minmax(90px,150px));
+    grid-template-columns: repeat(auto-fit,minmax(90px,132px));
    grid-gap:3rem;
    padding-top: 20px;
    width:100vw;
