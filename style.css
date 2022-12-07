@@ -195,7 +195,7 @@
   /* sections */
   .container{
     border:1px solid red;
-    padding-left:12% ;
+    padding-left:30px ;
     /* padding-right: 5%; */
     display : grid;
  
