@@ -142,7 +142,7 @@
   } */
 
   /* sections */
-  #section--1 .container{
+   .container{
     border:1px ;
     padding-left: 50px;
     padding-right: 50px;
@@ -221,7 +221,7 @@
 
    /* for sections boxes */
    .box{
-    height:200px;
+    height:100px;
     
   }
   /* .section{
@@ -231,11 +231,11 @@
   /* sections */
   .container{
  
-    padding-left:30px ;
+    padding-left:40px ;
     /* padding-right: 5%; */
     display : grid;
  
-    grid-template-columns: repeat(auto-fit,minmax(90px,100px));
+    grid-template-columns: repeat(auto-fit,minmax(90px,120px));
    grid-gap:3rem;
    padding-top: 20px;
    width:100vw;
