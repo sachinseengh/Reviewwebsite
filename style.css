@@ -38,7 +38,8 @@
     /* backdrop-filter: blur(40px); */
     
     backdrop-filter: blur(10px);
-   
+    
+    
   }
 
 
@@ -144,6 +145,7 @@
     /* background-color: #afcbd394; */
     
     border: 1px  white;
+    
   }
   .box{
     height:200px;
@@ -219,7 +221,10 @@
    }
    
   @media(max-width:450px){
-
+  
+    body {
+      background-position: center;
+    }
 
     .nav{
         display: none;
@@ -286,6 +291,11 @@
   }
   @media(min-width:451px )  and  ( max-width:550px){
 
+    body {
+      
+      background-position: center;
+      
+    }
     .nav{
       display: none;
   } 
@@ -344,6 +354,13 @@
   }
   @media(min-width:550px )  and  ( max-width:700px){
 
+    body {
+    
+      
+      backdrop-filter: blur(10px);
+      
+      
+    }
     .nav{
       display: none;
   } 
