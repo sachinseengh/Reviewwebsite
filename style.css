@@ -21,6 +21,8 @@
   html {
     font-size: 62.5%;
     box-sizing: border-box;
+  
+    
   }
   
   body {
@@ -28,11 +30,19 @@
     font-weight: 300;
     color: #444;
     line-height: 1.9;
-    background-color: #fde0e0;
+    /* background-color: #fde0e0; */
     width:100vw;
-    height: 100vh;
+    height: 100%;
+    background:url("bg.jpg");
+    background-repeat:repeat;
+    /* backdrop-filter: blur(40px); */
     
+    backdrop-filter: blur(10px);
+   
   }
+
+
+ 
   .header{
     width:100vw;
   }
@@ -47,7 +57,8 @@
     padding: 0 6rem;
     z-index: 100;
   
-    background-color: #9dbeac;
+    background-color: #9aa59f;
+    
   
   }
  
@@ -130,7 +141,7 @@
   }
   .sections{
     margin-left: 20;
-    background-color: #afcbd394;
+    /* background-color: #afcbd394; */
     
     border: 1px  white;
   }
