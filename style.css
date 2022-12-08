@@ -99,8 +99,8 @@
   
   .nav__link:link,
   .nav__link:visited {
-    font-size: 1.7rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 520;
     color: inherit;
     text-decoration: none;
     display: block;
@@ -226,8 +226,14 @@
     }
     
    .nav__link:link{
-    font-size: 13px;
+    font-size: 1.5rem;
     
+   }
+   .nav__item{
+    margin-left: 2rem;
+   }
+   ul.nav__links.ul--1{
+    padding-top: 10px;
    }
    .navsm ul{
     margin-top: -7px;
