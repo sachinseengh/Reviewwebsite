@@ -232,12 +232,15 @@
    .nav__item{
     margin-left: 2rem;
    }
-   ul.nav__links.ul--1{
+  ul{
+    margin-top: 10px;
     padding-top: 10px;
-   }
+  }
+
    .navsm ul{
-    margin-top: -7px;
-    padding-top: 25px;
+  
+    margin-top: -6px;
+    padding-top: 16px;
    }
 
    /* for sections boxes */
