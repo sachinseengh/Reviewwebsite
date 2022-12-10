@@ -102,7 +102,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-    margin-right: 10px;
+    margin-right:27 px;
   }
   
   .nav__item {
@@ -119,6 +119,7 @@
     transition: all 0.3s;
     box-shadow: 0px 0px 26px -5px #302c2c87;
     border-radius: 5px;
+    padding-left: 10px;
   }
   
   .nav__link--btn:link,
