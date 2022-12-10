@@ -117,6 +117,8 @@
     text-decoration: none;
     display: block;
     transition: all 0.3s;
+    box-shadow: 0px 0px 26px -5px #302c2c87;
+    border-radius: 5px;
   }
   
   .nav__link--btn:link,
@@ -209,15 +211,15 @@
    /* for button of dark theme */
 
     .theme{
-    margin-left: 10px;
-    /* margin-top:5px; */
-    width:100px;
-    padding-top:5px;
-    padding-bottom:5px;
-    
-
-    border-radius: 5px ;
-    border-color:var(--color-primary-darker);
+      margin-left: 10px;
+      margin-top: 5px;
+      width: 100px;
+      padding-top: 2px;
+      padding-bottom: 4px;
+      border: none;
+      border-radius: 5px;
+    border-color: none;
+    background-color: #afb6b894;
    }
    
   @media(max-width:450px){
