@@ -175,6 +175,7 @@
     border:1px solid #0f0f0f94 ;
     background-color:#67767a94;
     border-radius: 3px;
+    box-shadow: 0px 0px 17px -5px white;
   }
 
   #section--2{
@@ -222,6 +223,7 @@
       border-radius: 5px;
     border-color: none;
     background-color: #afb6b894;
+    box-shadow: 0px 0px 26px -5px white;
    }
    
    .fixed{
@@ -246,6 +248,7 @@
     padding-right: 2px;
     padding-bottom:5px;
     background-color: var(--color-primary);
+    box-shadow: 0px 0px 26px -5px white;
    }
   @media(max-width:450px){
   
@@ -320,6 +323,7 @@
   }
   .scroll-top{
     padding-bottom:3px;
+    
   }
   footer{
     padding-left:25px
