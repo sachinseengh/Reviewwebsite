@@ -318,6 +318,9 @@
   .fixed{
     left:80%;
   }
+  .scroll-top{
+    padding-bottom:3px;
+  }
   footer{
     padding-left:25px
   }
