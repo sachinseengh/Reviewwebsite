@@ -107,15 +107,23 @@ scrolltopbutton.addEventListener('click',function(){
 document.body.scrollTop  -=200;
 document.documentElement.scrollTop -= 200;
 
-// nav.scrollIntoView({behavior:"smooth"})
+
 
 });
 
 scrolltopbutton.addEventListener("mouseup",function(){
-
-nav.scrollIntoView({behavior:"smooth"})
-
+  // document.body.scrollTop  =0;
+  // document.documentElement.scrollTop = 0;
+  nav.scrollIntoView({behavior:"smooth"})
 });
+const mediaQuery = window.matchMedia('(max-width: 600px)')
+
+if (mediaQuery.matches) {
+  scrolltopbutton.addEventListener("mouseup",function(){
+ document.body.scrollTop  =0;
+  document.documentElement.scrollTop = 0;
+  });
+}
 
 
 
