@@ -70,29 +70,52 @@ const btnScrollTo = document.querySelector('.one');
 
 // console.log( btnScrollTo);
 
-item1.addEventListener('click', function (e) {
+function smoothscroll(classname,destination){
+
+  classname.addEventListener('click', function (e) {
     e.preventDefault( );
 
-  section1.scrollIntoView({ behavior: 'smooth' });
-});
-item2.addEventListener('click', function (e) {
-    e.preventDefault( );
+  destination.scrollIntoView({ behavior: 'smooth' });
 
-  section2.scrollIntoView({ behavior: 'smooth' });
 });
-item3.addEventListener('click', function (e) {
-    e.preventDefault( );
+}
 
-  section3.scrollIntoView({ behavior: 'smooth' });
-});
-item4.addEventListener('click', function (e) {
-    e.preventDefault( );
+smoothscroll(item1,section1);
+smoothscroll(item2,section2);
+smoothscroll(item3,section3);
+smoothscroll(item4,section4);
+smoothscroll(item5,section5);
 
-  section4.scrollIntoView({ behavior: 'smooth' });
-});
-item5.addEventListener('click', function (e) {
-    e.preventDefault( );
 
-  section5.scrollIntoView({ behavior: 'smooth' });
+//buttontoscrollup
+
+const buttontoscroll=document.querySelector('.fixed');
+
+window.addEventListener("scroll",  function( e){
+
+  if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+        buttontoscroll.classList.remove('togglefixed');
+  }else{
+    buttontoscroll.classList.add('togglefixed');
+  };
+})
+//scroll top button functionality
+
+const scrolltopbutton=document.querySelector('.scroll-top');
+scrolltopbutton.addEventListener('click',function(){
+
+document.body.scrollTop  -=200;
+document.documentElement.scrollTop -= 200;
+
+// nav.scrollIntoView({behavior:"smooth"})
+
 });
+
+scrolltopbutton.addEventListener("mouseup",function(){
+
+nav.scrollIntoView({behavior:"smooth"})
+
+});
+
+
 

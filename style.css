@@ -236,6 +236,9 @@
    /* border:2px solid red; */
    
    }
+   .togglefixed{
+    display:none;
+   }
    .scroll-top{
 
     width:50px;
@@ -249,6 +252,7 @@
     padding-bottom:5px;
     background-color: var(--color-primary);
     box-shadow: 0px 0px 26px -5px white;
+    cursor: pointer;
    }
   @media(max-width:450px){
   
