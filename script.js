@@ -117,7 +117,8 @@ const mediaQuery = window.matchMedia('(max-width: 600px)')
 
 if (mediaQuery.matches) {
   scrolltopbutton.addEventListener("mousedown",function(){
-    nav.scrollIntoView({behavior:"smooth"})
+     document.body.scrollTop  =0;
+  document.documentElement.scrollTop = 0;
   });
 }
 
