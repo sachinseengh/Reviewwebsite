@@ -116,7 +116,7 @@ scrolltopbutton.addEventListener("mousedown",function(){
 const mediaQuery = window.matchMedia('(max-width: 600px)')
 
 if (mediaQuery.matches) {
-  scrolltopbutton.addEventListener("mouseup",function(){
+  scrolltopbutton.addEventListener("mousedown",function(){
     nav.scrollIntoView({behavior:"smooth"})
   });
 }
