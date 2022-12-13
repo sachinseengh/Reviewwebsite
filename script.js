@@ -106,9 +106,6 @@ scrolltopbutton.addEventListener('click',function(){
 
 document.body.scrollTop  -=200;
 document.documentElement.scrollTop -= 200;
-
-
-
 });
 
 scrolltopbutton.addEventListener("mouseup",function(){
@@ -116,14 +113,14 @@ scrolltopbutton.addEventListener("mouseup",function(){
   // document.documentElement.scrollTop = 0;
   nav.scrollIntoView({behavior:"smooth"})
 });
-const mediaQuery = window.matchMedia('(max-width: 600px)')
+// const mediaQuery = window.matchMedia('(max-width: 600px)')
 
-if (mediaQuery.matches) {
-  scrolltopbutton.addEventListener("mouseup",function(){
- document.body.scrollTop  =0;
-  document.documentElement.scrollTop = 0;
-  });
-}
+// if (mediaQuery.matches) {
+//   scrolltopbutton.addEventListener("mouseup",function(){
+//  document.body.scrollTop  =0;
+//   document.documentElement.scrollTop = 0;
+//   });
+// }
 
 
 
